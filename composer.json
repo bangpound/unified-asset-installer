@@ -19,8 +19,8 @@
 		"source":         "https://github.com/pattern-lab/unified-asset-installer/releases"
 	},
 	"autoload": {
-		"psr-0": { 
-			"PatternLab\\Composer": "src/"
+		"psr-4": {
+			"PatternLab\\Composer\\": "src/"
 		}
 	},
 	"extra": {
