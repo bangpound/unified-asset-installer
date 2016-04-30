@@ -24,6 +24,9 @@
 		}
 	},
 	"extra": {
+		"branch-alias": {
+			"dev-master": "0.5.x-dev"
+		},
 		"class": "\\PatternLab\\Composer\\UnifiedAssetInstaller"
 	},
 	"require": {
