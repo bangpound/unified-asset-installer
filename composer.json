@@ -4,7 +4,7 @@
 	"keywords":         ["assets", "installer", "plugins", "pattern lab"],
 	"homepage":         "http://patternlab.io",
 	"license":          "MIT",
-	"type":             "composer-installer",
+	"type":             "composer-plugin",
 	"authors": [
 		{
 			"name":         "Dave Olsen",
@@ -27,7 +27,7 @@
 		"branch-alias": {
 			"dev-master": "0.5.x-dev"
 		},
-		"class": "\\PatternLab\\Composer\\UnifiedAssetInstaller"
+		"class": "PatternLab\\Composer\\Plugin"
 	},
 	"require": {
 		"php": ">=5.3.6",
