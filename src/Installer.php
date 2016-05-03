@@ -65,8 +65,8 @@ class Installer implements EventSubscriberInterface
 
                 if (isset($suggestions[$result])) {
                     Console::writeLine('');
-                    $f = new Fetch();
-                    $result = $f->fetchStarterKit($suggestions[$result]);
+                    //$f = new Fetch();
+                    //$result = $f->fetchStarterKit($suggestions[$result]);
 
                     if ($result) {
                         Console::writeLine('');
